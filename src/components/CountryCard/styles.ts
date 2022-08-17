@@ -46,4 +46,10 @@ export const CardTitle = styled.span`
   color: var(--main);
   font-size: 15px;
   margin: 0 0 0 20px;
+  flex: auto;
+`
+export const CardSymbol = styled.span`
+  color: var(--main);
+  font-size: 19px;
+  margin: 0 20px 0 10px;
 `

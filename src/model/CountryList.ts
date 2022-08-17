@@ -18,7 +18,7 @@ export interface CountryList {
   borders?: string[] | null
   nativeName: string
   numericCode: string
-  currencies?: CurrenciesEntity[] | null
+  currencies: CurrenciesEntity[]
   languages?: LanguagesEntity[] | null
   translations: Translations
   flag: string

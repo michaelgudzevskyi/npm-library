@@ -11,6 +11,7 @@ export const Home: FC = () => {
   const [singleCountry, setSingleCountry] = useState<CountryList | null>()
   const dispatch = useDispatch()
   const { getCountryList } = CountryCreators
+  
   const { countryList, loading } = useSelector(
     (state: RootStateOrAny) => state.countries
   )
@@ -33,7 +34,7 @@ export const Home: FC = () => {
         {loading
           ? 'Loading...'
           : countryList
-          ? 'Click to see countrys details'
+          ? 'Click to see currency details'
           : 'Country not found.'}
       </Title>
       <CardsWrapper>

@@ -22,7 +22,7 @@ export const HomeContainer: FC = () => {
   return (
     <>
       <HeaderContainer>
-        <Title>Choose Country</Title>
+        <Title>Buy your foreign currency online today</Title>
         <Search
           label="Search"
           inputName="search"
